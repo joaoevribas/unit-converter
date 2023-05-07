@@ -48,7 +48,7 @@ input {
   background-color: #6943ff;
 }
 
-.btn {
+#btn {
   width: 117px;
   height: 42px;
   border: none;
@@ -79,4 +79,10 @@ h2 {
   color: #5a537b;
   margin-top: 31px;
   margin-bottom: 9px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #353535;
 }
