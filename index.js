@@ -74,7 +74,13 @@ function massParagraph() {
 
 // BUTTON
 btn.addEventListener("click", function () {
-  length.innerHTML = lengthParagraph();
-  volume.innerHTML = volumeParagraph();
-  mass.innerHTML = massParagraph();
+  if (inputBox.value === "") {
+    length.innerHTML = `<p></p`;
+    volume.innerHTML = `<p></p`;
+    mass.innerHTML = `<p></p`;
+  } else {
+    length.innerHTML = lengthParagraph();
+    volume.innerHTML = volumeParagraph();
+    mass.innerHTML = massParagraph();
+  }
 });
